@@ -3,12 +3,12 @@ import StudentsCard from "./StudentsCard"
 export default function Students(){
 
   const students = [
-    { name: "John", smart: true },
-    { name: "John", smart: true },
-    { name: "Elizabeth", smart: true },
-    { name: "Anthony", smart: false },
-    { name: "Rainbow", smart: true},
-    { name: "Jane", smart: false}
+    { name: "John", info: "Always late", smart: true },
+    { name: "John", info: "Never does homework", smart: true },
+    { name: "Elizabeth", info: "Finished everything", smart: true },
+    { name: "Anthony", info: "Always late", smart: false },
+    { name: "Rainbow", info: "Always late", smart: true},
+    { name: "Jane", info: "Never does homework", smart: false}
   ]
 
   return (
